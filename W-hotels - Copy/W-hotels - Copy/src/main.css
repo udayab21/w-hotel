@@ -1,0 +1,107 @@
+/* Add a black background color to the top navigation */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+}
+.imagebackground{
+	width: 100%;
+	 height: 400px;
+	 background-image: url('../assets/banner.png');
+	 background-size: 100% 100%;
+
+}
+.centered{
+	text-align: center;
+	position: absolute;
+	top:40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.bgColor{
+	background-color: black;
+}
+.card_test {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+
+}
+
+.bg{
+	background-color: #908A7C;
+}
+.btn1{
+background-color: #908A7C;	
+}
+.backImage {
+	 width: 120%;
+	 height: 400px;
+	 background-image: url('../assets/hotel-history.png');
+	 background-size: 100% 100%;
+	 margin-left: -12px;
+}
+.imgImg{
+	background-size: 100% 100%;
+}
+@media(max-width:576px){
+	ul {
+
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin-right: 6rem;
+		background-color: #908A7C;
+
+		margin-right: auto;
+	}
+
+	.navbar .navbar-nav .nav-link:hover {
+		color: black;
+		background-color: #c5c8bf;
+	}
+
+	.navbar .navbar-nav .nav-link {
+		color: white;
+
+	}
+	.ul1{
+		display: flex;
+		flex-direction: row;
+	}
+	.navbar-collapse {
+		margin-left: -12px;
+		margin-right: -15px;
+		z-index: 10;
+		position: absolute;
+		top: 88px;
+		width: 100%;
+	}
+	.single{
+		margin: 20px;
+	}
+	.backImage {
+		width: 105%;
+		height: 400px;
+		background-image: url('../assets/hotel-history.png');
+		background-size: 100% 100%;
+		margin-left: -12px;
+	}
+	.imagebackground{
+		width: 100%;
+		 height: 200px;
+		 background-image: url('../assets/banner.png');
+		 background-size: 100% 100%;
+	
+	}
+	.centered{
+		text-align: center;
+		position: absolute;
+		top:25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+}
